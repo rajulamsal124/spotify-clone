@@ -1,7 +1,6 @@
 "use client";
-
+import MediaItem from "@/components/songs/MediaItem";
 import { Song } from "@/types";
-import MediaItem from "../songs/MediaItem";
 
 interface SearchContentProps {
   songs: Song[];

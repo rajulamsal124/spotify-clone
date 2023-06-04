@@ -5,8 +5,8 @@ import { HiHome } from "react-icons/hi";
 import { BiSearch } from "react-icons/bi";
 import Box from "./Box";
 import SidebarItem from "./SidebarItem";
-import Library from "./Library";
 import { Song } from "@/types";
+import Library from "../Library";
 
 interface SiderbarProps {
   children: React.ReactNode;

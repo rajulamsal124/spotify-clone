@@ -5,11 +5,11 @@ import { RxCaretLeft, RxCaretRight } from "react-icons/rx";
 import { HiHome } from "react-icons/hi";
 import { BiSearch } from "react-icons/bi";
 import { FaUserAlt } from "react-icons/fa";
-import Button from "./common/Button";
 import toast from "react-hot-toast";
 import useAuthModal from "@/hooks/auth/useAuthModal";
 import { useSupabaseClient } from "@supabase/auth-helpers-react";
 import { useUser } from "@/hooks/useUser";
+import Button from "./Button";
 
 interface HeaderProps {
   children: React.ReactNode;
